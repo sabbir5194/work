@@ -97,7 +97,8 @@
 	padding:1em;
 	border:#333 1px solid;
 }
-.wrapperr2{padding-bottom:1em;
+.wrapperr2{
+	padding-bottom:1em;
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap:1em;
@@ -107,8 +108,8 @@
 }
 /* .wrapperr2>div:nth-child(odd){
 	background:#ddd;
-	 */
-}
+	 
+}*/
 .sr{
 	border:#333 1px solid;
 	width:100%;
@@ -124,9 +125,8 @@
 	width:230px;
 	height:35px;
 	border-radius: 25px;
-  background: #ffff;
-  padding: 20px;
-  
+	background: #ffff;
+	padding: 20px;
 }
 
 .new-button{
