@@ -1,0 +1,169 @@
+
+.main{
+	
+	border:#333 2px solid;
+
+	}
+
+.wrapper>div{
+	background:#eee;
+	padding:1em;
+	border:#333 1px solid;
+}
+.wrapper{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap:1em;
+	/* grid-auto-rows:100px; */
+	grid-auto-rows:minmax(300px,300px);
+	
+}
+/* .wrapper>div:nth-child(odd){
+	background:#ddd;
+	
+} */
+
+.rap{
+	padding-bottom:70px;
+}
+
+
+
+
+
+
+.wrapperr>div{
+	background:#eee;
+	padding:1em;
+	border:#333 1px solid;
+}
+.wrapperr{padding:;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap:1em;
+	/* grid-auto-rows:100px; */
+	grid-auto-rows:minmax(50px,auto);
+	
+}
+/* .wrapperr>div:nth-child(odd){
+	background:#ddd;
+	
+} */
+.sr{
+	border:#333 1px solid;
+	width:100%;
+	height:50px;
+	
+	
+}
+
+/* ......................................... */
+
+
+.wrapper2>div{
+	background:#eee;
+	padding:1em;
+	border:#333 1px solid;
+}
+.wrapper2{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap:1em;
+	/* grid-auto-rows:100px; */
+	grid-auto-rows:minmax(300px,auto);
+	
+}
+/* .wrapper2>div:nth-child(odd){
+	background:#ddd;
+	
+} */
+.sr{
+	border:#333 1px solid;
+	width:100%;
+	height:50px;
+	
+	
+}
+
+
+
+
+
+
+
+
+.wrapperr2>div{
+	background:#eee;
+	padding:1em;
+	border:#333 1px solid;
+}
+.wrapperr2{padding-bottom:1em;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap:1em;
+	/* grid-auto-rows:100px; */
+	grid-auto-rows:minmax(50px,auto);
+	
+}
+/* .wrapperr2>div:nth-child(odd){
+	background:#ddd;
+	 */
+}
+.sr{
+	border:#333 1px solid;
+	width:100%;
+	height:50px;
+	
+	
+}
+
+
+
+
+.button{
+	width:230px;
+	height:35px;
+	border-radius: 25px;
+  background: #ffff;
+  padding: 20px;
+  
+}
+
+.new-button{
+	text-align:center;
+}
+
+
+
+
+
+.sabbir{
+width:100%;height:100%;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+  .main {
+	  
+	  flex: 50%;
+    width: 100%;
+  }
+  @media screen and (max-width: 992px) {
+  .button {
+	  flex: 50%;
+    width: 100%;
+  }
+
+@media screen and (max-width: 992px) {
+  .main {
+  grid-template-rows:1fr 1fr;
+}
+  }
+
